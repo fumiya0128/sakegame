@@ -1,0 +1,57 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"glyph_area_16": {
+			"type": "text",
+			"path": "text/glyph_area_16.json"
+		},
+		"glyph_area_20": {
+			"type": "text",
+			"path": "text/glyph_area_20.json"
+		},
+		"font16_1": {
+			"type": "image",
+			"width": 256,
+			"height": 96,
+			"path": "image/font16_1.png"
+		},
+		"font16_2": {
+			"type": "image",
+			"width": 256,
+			"height": 96,
+			"path": "image/font16_2.png"
+		},
+		"font20_1": {
+			"type": "image",
+			"width": 320,
+			"height": 120,
+			"path": "image/font20_1.png"
+		},
+		"font20_2": {
+			"type": "image",
+			"width": 320,
+			"height": 120,
+			"path": "image/font20_2.png"
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2",
+		"niconico": {
+			"supportedModes": [
+				"single",
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 60
+			  }
+		}
+	}
+}
