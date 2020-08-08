@@ -2,20 +2,17 @@
 	"width": 640,
 	"height": 360,
 	"fps": 30,
-	"main": "./script/main.js",
+	"main": "./script/_bootstrap.js",
 	"assets": {
-		"main": {
-			"type": "script",
-			"path": "script/main.js",
-			"global": true
+		"rule": {
+			"type": "image",
+			"width": 1280,
+			"height": 720,
+			"path": "image/rulesq2.png"
 		},
 		"glyph_area_16": {
 			"type": "text",
 			"path": "text/glyph_area_16.json"
-		},
-		"glyph_area_20": {
-			"type": "text",
-			"path": "text/glyph_area_20.json"
 		},
 		"font16_1": {
 			"type": "image",
@@ -23,23 +20,20 @@
 			"height": 96,
 			"path": "image/font16_1.png"
 		},
-		"font16_2": {
-			"type": "image",
-			"width": 256,
-			"height": 96,
-			"path": "image/font16_2.png"
+		"_bootstrap": {
+			"type": "script",
+			"path": "script/_bootstrap.js",
+			"global": true
 		},
-		"font20_1": {
-			"type": "image",
-			"width": 320,
-			"height": 120,
-			"path": "image/font20_1.png"
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
 		},
-		"font20_2": {
-			"type": "image",
-			"width": 320,
-			"height": 120,
-			"path": "image/font20_2.png"
+		"parameterObject": {
+			"type": "script",
+			"path": "script/parameterObject.js",
+			"global": true
 		}
 	},
 	"environment": {
